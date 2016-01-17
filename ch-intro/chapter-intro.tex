@@ -1,0 +1,54 @@
+
+\chapter{Introduction\label{ch:intro}}
+
+In an aggregate sense, aviation is one of the safetest means of
+transportation that exists today. According to statistics provided by
+the National Transportation Safety Board (NTSB), of the $34,678$
+transportation fatalities registered in 2013, only $443$ were related
+to aviation, compared to $32,719$ highway-related fatalities, $891$
+rail-related fatalities, and $615$ marine-related
+fatalities~\cite{ntsbStats}. Ensuring the continuation and improvement
+of this tradition of safe airplane flight is the responsibility of the
+Federal Aviation Administration (FAA), which proposes legislation
+aimed at establishing certification rules to establish the
+airworthiness of airplanes.
+
+Two longstanding phenomena that pose issues for aircraft safety are
+aircraft icing and cargo hold fires. Both of these problems are
+explicitly addressed in Title 14 of the Code of Federal Regulations
+(14 CFR), part 25 (Airworthiness Standards: Transport Category
+Airplanes). The importance of ice accretion is underscored by the
+recent 2014 amendment to the CFR, which enacts stricter certification
+rules for flight in supercooled large droplet (SLD) icing
+conditions~\cite{fedregisterSLD}. The importance of cargo hold fires
+is demonstrated by the tight requirements for fire detection systems,
+which must alert the flight crew within 60 seconds of
+ignition~\cite{CFR}.
+
+Given the recognized safety issues presented by both icing and fires,
+there has been much research conducted in these arenas. As we will see
+shortly, the literature encompasses work that addresses informational
+deficiencies across wide range of topics, including computation,
+experimental observations, fundamental physical understanding,
+sensitivity analyses/optimizations, etc.
+
+However, both ice accretion and cargo hold fires are processes which
+are, in practice, subject to a wide range of uncertainty. The sources
+of these uncertainties are manifold, but what is important is that the
+existing literature seems to lack a thorough treatment of this
+topic. Stated plainly, this is the central objective of this thesis --
+to address the topic of uncertainty in ice accretion and cargo hold
+fire problems. The work done in this arena falls into one of a few
+categories: describing/modeling sources of uncertainty, developing
+and/or implementing methods for quantifying uncertainty, and analyzing
+the relative contributions to variance in a particular output quantity
+of interest. For completeness, we will address all three of these
+categories in this thesis.
+
+Before presenting our work on the topic of uncertainty quantification
+(UQ) for airplane safety problems, the remainder of this introduction
+is dedicated to grounding the problems of airplane icing and cargo
+hold fires in the relevant literature.
+
+\input{ch-intro/Icing}
+\input{ch-intro/Fire}
